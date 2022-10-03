@@ -26,5 +26,8 @@ public class BinarySearchTree {
 		System.out.println("Size of Binary Tree is " + size);
 		boolean result = size.equals(13);
 		System.out.println(result);
+		boolean element = myBinaryTree.search(63);
+		System.out.println(element);
+
 	}
 }
